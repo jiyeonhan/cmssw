@@ -1,0 +1,13 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/MuonReco"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="MuonAnalysis/RochesterCorrection"/>
+<use name="root"/>
+<use name="clhep"/>
+<use name="boost"/>
+<library   file="*.cc" name="MuonAnalysisRochesterCorrections">
+  <flags   EDM_PLUGIN="1"/>
+</library>
+
